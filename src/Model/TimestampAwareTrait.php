@@ -9,16 +9,6 @@ namespace Dspacelabs\Common\Model;
 trait TimestampAwareTrait
 {
     /**
-     * @var \DateTime
-     */
-    protected $createdAt;
-
-    /**
-     * @var \DateTime
-     */
-    protected $updatedAt;
-
-    /**
      * @return \DateTime
      */
     public function getCreatedAt()

@@ -10,11 +10,6 @@ namespace Dspacelabs\Common\Model;
 trait GuidAwareTrait
 {
     /**
-     * @var string
-     */
-    protected $guid;
-
-    /**
      * @return string
      */
     public function getGuid()
