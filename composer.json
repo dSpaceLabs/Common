@@ -1,6 +1,6 @@
 {
     "name": "dspacelabs/common",
-    "description": "",
+    "description": "Common classes, interfaces, traits and other utilities used in some projects",
     "keywords": [],
     "license": "MIT",
     "homepage": "https://github.com/dSpaceLabs/Common",
@@ -24,6 +24,7 @@
         "mockery/mockery": "~1.0@dev"
     },
     "suggest": {
+        "doctrine/orm": "Some traits assume this is installed"
     },
     "autoload": {
         "psr-4": { "Dspacelabs\\Common\\": "src/" }

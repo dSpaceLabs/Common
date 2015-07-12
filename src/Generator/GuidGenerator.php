@@ -1,9 +1,28 @@
 <?php
+/**
+ */
 
 namespace Dspacelabs\Common\Generator;
 
+/**
+ * GUID Generator
+ *
+ * Generates random string in a GUID format structure
+ *
+ * Usage:
+ *
+ * ```php
+ * $generator = new GuidGenerator();
+ * $guid = $generator->generate();
+ * ```
+ */
 class GuidGenerator
 {
+    /**
+     * Generates a GUID string
+     *
+     * @return string
+     */
     public function generate()
     {
         return sprintf(
