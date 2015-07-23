@@ -5,11 +5,26 @@
 namespace Dspacelabs\Common\Iterator;
 
 /**
+ * CSV Iterator
+ *
+ * Allows you to easily iterate over lines in a csv file
+ *
+ * Usage:
+ *
+ * ```php
+ * <?php
+ *
+ * $csvIterator = new \Dspacelabs\Common\CsvIterator('/path/to/file.csv');
+ * foreach ($csvIterator as $csvRow) {
+ *   // ....
+ * }
+ * ```
  */
 class CsvIterator implements \Iterator
 {
     /**
      * Bit Mask Flags
+     *
      * HAS_HEADER
      *   First row is the header row
      */
